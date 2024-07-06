@@ -1,6 +1,6 @@
 import {
     Wave
-} from './waves.js';
+} from './wave.js';
 
 export class WaveGroup {
     constructor(){
