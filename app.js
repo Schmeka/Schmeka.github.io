@@ -1,3 +1,4 @@
+/*
 import{
     WaveGroup
 } from './wavegroup.js';
@@ -37,3 +38,4 @@ class App{
 window.onload = () => {
     new App();
 };
+*/
