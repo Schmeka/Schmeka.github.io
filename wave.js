@@ -19,7 +19,7 @@ export class Wave {
     }
 
     init(){
-        this.point =[];
+        this.points =[];
         for (let i=0;i < this.totalPoints;i++){
             const point = new Point(this.index+i,this.pointGap * i,this.centerY);
             this.points[i] = point;
@@ -29,10 +29,12 @@ export class Wave {
     draw(ctx){
         ctx.beginPath();
         ctx.fillStyle = this.color;
+
         let prevX = this.points[0].x;
         let prevY = this.points[0].y;
 
         ctx.moveTo(prevX,prevY);
+
         for (let i=1; i < this.totalPoints;i++){
             if (i < this.totalPoints- 1){
                 this.points[i].update();
