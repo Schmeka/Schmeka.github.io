@@ -22,7 +22,10 @@ h1{
     margin: 5% 20px;
     cursor: pointer;
     transition: transform 0.3s;
+    background-size: cover;
+    background-position: center;
 }
+
 
 .button-container{
     display:flex;
@@ -33,3 +36,12 @@ h1{
     background-color: #0a496d;
     transform: scale(1.1);
 }
+
+.button:nth-child(2){
+    background-image: url('furina.png');
+}
+
+span.backgroundtext{
+    background-color: black;
+}
+
