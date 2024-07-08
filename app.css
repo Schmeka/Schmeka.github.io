@@ -1,7 +1,8 @@
 body {
     background-color: #3d5a80;
    position:relative;
-   display:floex;
+   height:100vh;
+    margin:0;
 }
 
 h1{
@@ -49,6 +50,7 @@ h1{
 .button-container{
     display:absolute;
     margin-left: 5%;
+    justify-content: flex-start;
 }
 
 .button:hover {
@@ -72,8 +74,8 @@ span.backgroundtext{
     height:60px;
     cursor: pointer;
     transition: 0.3s;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
     border: none;
 }
 
@@ -97,6 +99,11 @@ span.backgroundtext{
     position  :absolute;
     margin-top:-300px;
     right:5%;  
+}
+
+.interactables{
+    display:flex;
+    justify-content: space-around;
 }
 
 
