@@ -11,12 +11,19 @@ h1{
     margin-top: 40px;
 }
 .asciiart{
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    display:inline-block;
+    text-align: center;
     margin-top: -450px;
     font-family: monospace;
     white-space: pre;
+    background-color: white;
+    padding: 20px;
+}
+
+.asciiartcontainer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .button{
