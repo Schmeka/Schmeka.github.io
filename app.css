@@ -1,6 +1,7 @@
 body {
     background-color: #3d5a80;
-    height: 500%;
+   position:relative;
+   display:floex;
 }
 
 h1{
@@ -13,7 +14,6 @@ h1{
 .asciiart{
     display:inline-block;
     text-align: center;
-    margin-top: -450px;
     font-family: monospace;
     white-space: pre;
     background-color: white;
@@ -24,6 +24,8 @@ h1{
     display:flex;
     align-items: center;
     justify-content: center;
+    margin-top: -450px;
+
 }
 
 .button{
@@ -63,24 +65,38 @@ span.backgroundtext{
 }
 
 .accordion{
-    background-color: #424549;
+    background-color:  #98c1d9;
     text-align: center;
     align-items: center;
-    padding: 0 0 0 0;
+    width:440px;
+    height:60px;
     cursor: pointer;
     transition: 0.3s;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border: none;
 }
 
 .active, .accordion:hover{
-    background-color: #36393e;
+    background-color: #0a496d;
+    
 }
 
 .panel {
+    text-align: center;
     padding: 0 0;
-    background-color: #424549;
+    background-color:  #0a496d;
     overflow:hidden;
     max-height: 0;
     transition: max-height 0.2s;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.accordioncontainer{
+    position  :absolute;
+    margin-top:-300px;
+    right:5%;  
 }
 
 
