@@ -1,5 +1,6 @@
 body {
     background-color: #3d5a80;
+    height: 500%;
 }
 
 h1{
@@ -7,7 +8,7 @@ h1{
     font-family: Arial, sans-serif;
     color: white;
     position: relative;
-    top: 20px;
+    margin-top: 40px;
 }
 .asciiart{
     display:flex;
@@ -37,8 +38,8 @@ h1{
 
 
 .button-container{
-    display:flex;
-    left: -30%;
+    display:absolute;
+    margin-left: 5%;
 }
 
 .button:hover {
