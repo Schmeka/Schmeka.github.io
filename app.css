@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    background-color: #f7e7ce;
+    display:flex;
+    width:100%;
+}
+
+.button{
+    background-color: #f7e7ce;
+    border: 1vw black;
+    text-align: center;
+    padding:2vh 5vw;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+}
+
+.button:nth-child(3){
+    margin-left:auto;
+}
+
+.button:hover{
+    background-color: #cdb891;
+}
+
