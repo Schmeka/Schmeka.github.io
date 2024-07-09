@@ -1,9 +1,11 @@
 body{
     margin: 0;
+    background-color: ;
 }
 
 .navbar{
-    background-color: #f7e7ce;
+    background-color: black;
+    border-color: none;
     display:flex;
     width:100%;
     align-items: center;
@@ -12,8 +14,8 @@ body{
 }
 
 .button {
-    background-color: #f7e7ce;
-    border: 1vw black;
+    border: 0;
+    background-color: black;
     text-align: center;
     padding:3vh 5vw;
     color:white;
@@ -31,7 +33,7 @@ body{
 }
 
 .button:hover{
-    background-color: #cdb891;
+    background-color: gray;
 }
 
 
@@ -40,7 +42,7 @@ body{
     display:none;
     position:absolute;
     z-index: 1;
-    background-color: #f7e7ce;
+    background-color: black;
     width: 100%;
 }
 
@@ -63,5 +65,5 @@ body{
 }
 
 .dropdowncontent a:hover{
-    background-color: #cdb891;
+    background-color: gray;
 }
