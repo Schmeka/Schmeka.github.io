@@ -1,6 +1,8 @@
 body{
     margin: 0;
-    background-color: ;
+    background-color: black;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .navbar{
@@ -10,7 +12,7 @@ body{
     width:100%;
     align-items: center;
     text-decoration: none;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 }
 
 .button {
@@ -66,4 +68,9 @@ body{
 
 .dropdowncontent a:hover{
     background-color: gray;
+}
+
+.hi{
+    text-align: center;
+    text-justify: center;
 }
