@@ -116,12 +116,14 @@ iframe{
 }
 
 .modal-content{
-    margin:auto;
-    display:block;
+    margin: 5% auto;
     width:80%;
 }
 
 .modal-content img{
     width:100%;
     height:auto;
+    MARGIN:0;
+    padding:0;
+    display:block;
 }
