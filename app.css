@@ -38,7 +38,14 @@ body{
     background-color: gray;
 }
 
-
+.video{
+    display:flex;
+    flex-direction: column;
+}
+iframe{
+    display:block;
+    margin: 0 auto;
+}
 
 .dropdowncontent{
     display:none;
