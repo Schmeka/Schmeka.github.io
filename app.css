@@ -3,6 +3,7 @@ body{
     background-color: black;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    overflow: auto;
 }
 
 .navbar{
@@ -90,17 +91,19 @@ iframe{
 
 .furinapic{
     cursor:pointer;
-    width: 30%;
+    width: 100%;
 }
 
 .furinastuff{
     display:flex;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
 }
 
 .textbox{
-    width:30%
+    width:30%;
+    text-align: justify;
 }
 
 .modal{
@@ -126,4 +129,30 @@ iframe{
     MARGIN:0;
     padding:0;
     display:block;
+}
+
+.furinacontainer{
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:30%;
+}
+
+.furinabutton{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width:100%;
+    background-color:black;
+    padding-top: 3vh;
+    padding-bottom:3vh;
+    color:white;
+    border:none;
+    text-align: center;
+    font-size: 5vh;
+    margin-bottom: 3vh;
+    text-decoration: none;
+}
+
+.furinabutton:hover{
+    background-color:gray;
 }
