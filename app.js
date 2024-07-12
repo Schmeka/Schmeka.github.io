@@ -19,6 +19,3 @@ window.onclick = function(event) {
     }
   }
 
-function download(){
-    
-}
