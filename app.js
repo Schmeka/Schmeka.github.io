@@ -6,6 +6,10 @@ document.querySelector(".idk").addEventListener("click", function() {
     window.location.href = "newpage.html"; 
 });
 
+document.querySelector(".jp").addEventListener("click", function() {
+    window.location.href = "jp.html"; 
+});
+
 var modal = document.getElementById("furinamodal");
 
 function openmodal(){
@@ -17,5 +21,9 @@ window.onclick = function(event) {
     if (event.target == modal) {
       modal.style.display = "none";
     }
+  }
+
+  function checkRomanization(){
+    
   }
 
