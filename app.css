@@ -174,7 +174,8 @@ iframe{
     height:30vh;
     width: 30vh;
     display: flex;
-    align-items: center;
+    align-items: center; 
+    font-size: 5vh;
     justify-content: center;
 }
 
