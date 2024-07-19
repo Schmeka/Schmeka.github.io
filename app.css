@@ -60,13 +60,18 @@ iframe{
     flex-grow: 1;
 }
 
-.dropdowncontent a{
+.dropdowncontent a, .dropdowncontent button{
     color:white; 
     text-decoration: none;
     display:block;
+    background-color: black;
     text-align:center;
     height:100%;
+    width:100%;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding-top: 3vh;
+    border-color:transparent;
     padding-bottom: 3vh;
 }
 
@@ -74,8 +79,17 @@ iframe{
     display:block;
 }
 
-.dropdowncontent a:hover{
+.dropdowncontent a:hover, .dropdowncontent button:hover{
     background-color: gray;
+}
+
+.discord:hover::before{
+    content: "schmeka";
+    text-decoration: underline;
+}
+
+.discord::before{
+    content:"Discord";
 }
 
 .hi{
@@ -195,4 +209,20 @@ iframe{
     border-color:white;
     width:100%;
     height:100%;
+}
+
+.popup {
+    visibility: hidden;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 2px;
+    padding: 8px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    transform:translateX(-50%);
+    top: 30px;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }

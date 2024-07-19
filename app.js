@@ -114,3 +114,16 @@ window.onclick = function(event) {
      } 
 
      randomchar();
+
+     function discordtag(){
+        const popup = document.getElementById("popup");
+        popup.style.visibility = "hidden";
+
+        navigator.clipboard.writeText("schmeka").then(()=>{
+            popup.style.visibility = "visible";
+
+            setTimeout(() => {
+                popup.style.visibility = "hidden";
+            }, 2000);
+         });
+    }
